@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>期末作业</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        ul {
+            /* 去黑点 */
+            list-style: none;
+
+            background: rgb(0, 0, 0);
+            text-align: center;
+        }
+
+        ul li {
+            /* 列表成行显示 */
+            display: inline-block;
+
+            position: relative;
+        }
+
+        ul li a {
+            background: black;
+            display: block;
+            padding: 20px 45px;
+            color: white;
+
+            /* 消除链接下划线 */
+            text-decoration: none;
+
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        ul li a:hover {
+            color: lightseagreen;
+        }
+
+
+        .v {
+            width: 100%;
+            height: 700px;
+            background-image: url("./img/1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center 50%;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .c::after {
+            display: block;
+            content: "";
+            width: 200px;
+            border-bottom: 5px solid red;
+            margin: 0 auto;
+        }
+
+        .b {
+            width: 100%;
+            height: 300px;
+            display: flex;
+        }
+
+        .b1 {
+            width: 25%;
+            background-image: url("./img/2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center 50%;
+            margin: 10px;
+        }
+
+        p {
+
+            margin: 10px;
+            text-indent: 30px;
+            font-size: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="v">
+        <div>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="dog.html">狗狗</a></li>
+                <li><a href="cat.html">猫咪</a></li>
+                <li><a href="pet.html">关于宠物</a></li>
+                <li><a href="food.html">宠物零食</a></li>
+                <li><a href="http://t.csdn.cn/gNy9F">报告</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="c">
+        <h1>关于我们</h1>
+    </div>
+    <div class="b">
+        <div class="b1"></div>
+        <div class="b2">
+            <p>动物之家是一个为流浪动物提供临时庇护、医疗和领养服务的机构。它通常由非营利组织或政府资助，并由专业人士和志愿者共同管理运营。</p>
+            <p>动物之家的主要目标是保护和关爱那些无家可归、遭受虐待或失去主人的动物。当这些动物被接收时，会进行初步的健康检查和医疗护理，例如给予必要的疫苗、驱虫和绝育手术。之后，它们会被安置在临时庇护所中，提供食物、水和适当的住所，直到找到一个合适的领养家庭。
+            </p>
+            <p>在动物之家，专业人士和志愿者会与动物建立联系，提供日常护理和社交化训练，以提高它们的适应能力和增加领养的机会。动物之家还与社区合作，组织各种活动和领养推广活动，以增加对流浪动物的关注和认识。</p>
+            <P>动物之家对于社区和人们来说有着重要的作用。它提供了一个安全的场所，帮助流浪动物恢复健康，并为寻找宠物的人提供了一个机会，以负责任的方式领养一只动物。通过领养流浪动物，人们可以给它们一个温暖的家，同时减少流浪动物的数量。
+            </P>
+            <p>动物之家在社会意识、教育和动物福利方面发挥着重要的作用。它们致力于提高公众对动物保护的意识，鼓励人们对动物负责并采取积极的行动。</p>
+            <p>总之，动物之家是一个关爱流浪动物、提供庇护、医疗和领养服务的机构，致力于保护动物的福利，并促进社区的动物保护意识。</p>
+        </div>
+    </div>
+</body>
+
+</html>
